@@ -1,0 +1,110 @@
+body {
+    background: #393E46;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.6em;
+    display: block;
+    margin: 8px;
+}
+h1, h2, h3{
+ font-family: 'Orbitron', sans-serif;
+ font-size: 22px;
+}
+h1 {
+  color: red;
+  font-size: 24px;
+}
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+h3{
+  color: red;
+  font-size: 14px;
+}
+a {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: 'Acme', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #5aff24;
+  text-decoration: none;
+}
+table{
+  font-size: 14px;
+  line-height: 1.4em;
+}
+div {
+    display: block;
+}
+.card {
+    background: #232931;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.img-rond {
+  border-radius: 50%;
+
+}
+#img-profile {
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+}
+.text-center {
+  text-align: center;
+}
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+.list-inline {
+    padding-left: 0;
+    list-style-type: none;
+
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+
+}
